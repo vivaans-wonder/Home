@@ -44,9 +44,8 @@ width: 55%;
 }
 .messi{
     display:grid;
-    grid-template-columns:1fr 5fr;
-    grid-auto-rows: minmax(200px,auto);
-    gap: 10px;
+    grid-template-columns: 35% 65% ;
+    grid-auto-rows: minmax(200px,max);
 
 }
 .stats{
