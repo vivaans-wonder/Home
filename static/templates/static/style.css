@@ -1,0 +1,123 @@
+body{
+ background-image: linear-gradient(navy,Red);
+height:800px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ color:gold;   
+}
+
+.wrapper{
+display: grid;
+grid-template-columns: 1fr;
+gap: 10px;
+}
+.myself{
+    background-color :#333;
+    width: 55%;
+}
+    
+.players{
+    background-color: darkred;
+    width: 55%;
+
+    
+    }
+.players a{
+    text-decoration: none;
+    color: gold;
+}
+.S{
+    background-color: darkmagenta;
+    width: 55%;
+}
+.facts{
+    background-color: deeppink;
+    width: 55%;
+}
+.quiz{
+    background-color: deepskyblue;
+    width: 55%;
+}
+.myprojects{
+background-color: indigo;
+width: 55%;
+}
+.messi{
+    display:grid;
+    grid-template-columns: 35% 65% ;
+    grid-auto-rows: minmax(200px,max);
+
+}
+.stats{
+background-color: lightseagreen;
+width: 55%;
+
+
+}
+.stats ul li {
+font-size: 25px;
+
+}
+.stats a{
+    text-decoration: none;
+    color: gold;
+
+}
+
+
+.logo{
+background-color: mediumaquamarine;
+
+
+}
+.logo img{
+    width: 475px;
+    height: 400px;
+}
+.famous{
+    
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.famous ul li a{
+text-decoration: none;
+font-size: xx-large;
+font-weight: bolder;
+color:white;
+}
+.famous ul li{
+    margin-bottom: 5%;
+}
+
+a{
+text-decoration: none;
+color: gold;
+}
+
+
+
+.button a{
+    padding: 10px 20px;
+    background-color: #1ced96;
+    color: #fff;
+    border-radius: 5px;
+    float:right;
+}
+table,th,td{
+    border: 2px black solid;
+    background-color: cyan;
+    width: fit-content;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse; 
+    margin-left: 2%;
+    margin-top: 11%;
+}
+
+
+#leo{
+    background-image: linear-gradient(blue,red);
+height: 
+
+}

@@ -1,8 +1,8 @@
 body{
  background-image: linear-gradient(navy,Red);
+height:800px;
  background-repeat: no-repeat;
  background-size: cover;
- height: max-content;
  color:gold;   
 }
 
@@ -103,4 +103,21 @@ color: gold;
     color: #fff;
     border-radius: 5px;
     float:right;
+}
+table,th,td{
+    border: 2px black solid;
+    background-color: cyan;
+    width: fit-content;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse; 
+    margin-left: 2%;
+    margin-top: 11%;
+}
+
+
+#leo{
+    background-image: linear-gradient(blue,red);
+height: 
+
 }
