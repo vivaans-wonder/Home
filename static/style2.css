@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../static/jeremy-bishop-G9i_plbfDgk-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: tahoma;
+    font-weight: bolder;
+    color: gold;
+}
+
+.menu-bar{
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    height: max-content;
+    border-radius: 10px;
+    
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style-type: none;
+    color: #fff;
+}
+
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-bar ul li:hover{
+    background: red;
+    border-radius: 10px;
+}
+
+.sub-menu1{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu1{
+    display: block;
+    position: absolute;
+    background: #000;
+    margin: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul
+{
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li{
+    width: 120px;
+    border-bottom: 1px dotted rgb(255, 19, 19);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li:last-child
+{
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li a:hover
+{
+    color: #b2ff00;
+}
+
+
+.wrapper{
+    display: grid;
+    width: 100%;
+    height: fit-content;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    'aboutme famous'
+    'stats facts'
+    'quiz myprojects';
+    gap: 1rem;
+    row-gap: 3rem;   
+}
+.myself{
+    background-color :#333;
+    border: 3px black;
+    border-radius: 10px;
+    padding: 20px;
+    grid-area: aboutme;
+}
+    
+.players{
+    background-color: darkred;
+    border: 3px black;
+    border-radius: 10px;
+    grid-area: famous;
+    padding: 20px;
+
+}
+.players a{
+    text-decoration: none;
+    color: gold;
+    
+}
+
+.S{
+    background-color: darkmagenta;
+    
+    border-radius: 10px;
+}
+.facts{
+    background-color: rgb(70, 4, 39);
+
+    border-radius: 10px;
+    grid-area: facts;
+    padding: 20px;
+
+}
+.quiz{
+    background-color: rgb(3, 71, 93);
+
+    border-radius: 10px;
+    grid-area: quiz;
+    padding: 20px;
+
+}
+.myprojects{
+    background-color: indigo;
+    
+    border-radius: 10px;
+    grid-area: myprojects;
+    padding: 20px;
+
+}
+.messi{
+    display:grid;
+    grid-template-columns: 35% 65% ;
+    grid-auto-rows: minmax(200px,max);
+
+
+}
+.stats{
+    background-color: rgb(2, 32, 59);
+    
+    border-radius: 10px;
+    grid-area: stats;
+    padding: 20px;
+
+}
+.stats ul li {
+    font-size: 25px;
+
+}
+.stats a{
+    text-decoration: none;
+    color: gold;
+
+}
+
+.logo{
+    background-color: mediumaquamarine;
+
+
+}
+.logo img{
+    width: 475px;
+    height: 400px;
+}
+.famous{
+    
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.famous ul li a{
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: bolder;
+    color:white;
+}
+.famous ul li{
+    margin-bottom: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: gold;
+}
+
+.button a{
+    padding: 10px 20px;
+    background-color: #1ced96;
+    color: #fff;
+    border-radius: 5px;
+    float:right;
+}
+table,th,td{
+    border: 2px black solid;
+    background-color: cyan;
+    width: fit-content;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse; 
+    margin-left: 2%;
+    margin-top: 11%;
+}
+
+#leo{
+    background-image: linear-gradient(blue,red);
+}
+.p1,.p2,.p3,.p4{
+    
+    text-align: left;
+    margin-left: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: thin solid grey ;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+
+}
+article ul li{
+    font-size: 18px;
+    line-height: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.4);
+
+    
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 2%;
+    width: 90%;
+    margin-left: 5%;
+
+}
+h1{
+    text-align: center;
+    border-bottom: 2px solid red;
+    color: red;
+    padding: 10px;
+    background-color: gold;
+    border-radius: 10px;
+}
+
+/* -----------Football Stories Page Styles */
+#messi{
+    background-image:linear-gradient(Red,Blue) ;
+    color: black;
+    
+}
+.ronaldo{
+    background-image: linear-gradient(white,black,white);
+               color: black;
+} 
+
+.Suarez{
+background-image:linear-gradient(White,Red) ;     
+color: black;
+}
+img{
+    width: 100%;
+    border-radius: 10px;    
+    height: 50vh;
+}
+
+.Neymar{
+ background-image: linear-gradient(navy,Red);
+ color: black;
+}
+
+.kylianMbappe{
+ background-image: linear-gradient(Navy,Red);
+ color: black;  
+ text-align: center;
+}
+
